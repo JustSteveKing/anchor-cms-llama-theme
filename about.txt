@@ -1,0 +1,5 @@
+Theme name:    Llama Theme
+Description:   Google style theme for Anchor CMS.
+Author name:   JustSteveKing
+Author site:   https://www.twitter.com/JustSteveKing
+License:       http://licence.visualidiot.com

@@ -1,0 +1,9 @@
+jQuery(document).ready(function(){
+        $('#search-button').click(function(){
+                $('#search').fadeIn('slow');
+                $('input').focus();
+        });
+        $('#search-close').click(function(){
+                $('#search').fadeOut('slow')
+        });
+});
