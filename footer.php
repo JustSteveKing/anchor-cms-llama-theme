@@ -19,6 +19,14 @@
 		</div>
 	</div>
 	<div class="row">
+        	<div class="card hovercard">
+                	<div class="article">
+                        	<h4>This site has been live for:</h4>
+                        	<p><div id="counter"></div></p>
+        		</div>
+        </div>
+        </div>
+	<div class="row">
 		<div class="card hovercard">
 			<h3 class="text-center">Categories</h3>
 			<div class="article">
@@ -80,5 +88,6 @@
     <script src="<?php echo theme_url('js/main.js'); ?>"></script>
     <script src="<?php echo theme_url('js/nav.js'); ?>"></script>
     <script src="<?php echo theme_url('js/search.js'); ?>"></script>
+    <script src="<?php echo theme_url('js/timer.js'); ?>"></script>
   </body>
 </html>
