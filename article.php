@@ -2,7 +2,11 @@
 
 		<div class="col-sm-12 panel">
 			<div class="header row">
-				<div class="panel-thumbnail"><img class="img-responsive" src="<?php echo article_custom_field('image'); ?>"></div>
+			<?php 
+				if(article_custom_field('image')){
+					echo '<div class="panel-thumbnail"><img class="img-responsive" src="' . article_custom_field('image') . '"></div>';
+				}
+				else{}?>
 				<div class="col-md-10 text-left">					
 					<div class="panel-heading">
 						<h2><?php echo article_title(); ?></h2>
