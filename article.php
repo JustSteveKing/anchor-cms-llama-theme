@@ -24,6 +24,8 @@
 				<a class="btn btn-default" href="http://twitter.com/share?url=<?php echo full_url(); ?><?php echo current_url();?>&text=<?php echo article_title(); ?><?php if(site_meta('twitter')): ?>&via=<?php echo site_meta('twitter'); ?><?php endif; ?>" target="_blank"><span class="icon-stat"><i class="fa fa-twitter"></i></span>
 				Tweet This</a>
 			</div>
+			<h3>Comments</h3>
+            <?php theme_include('comments'); ?>
 		</div>
 			<?php if(has_pagination()): ?>
                 <nav class="pagination">
